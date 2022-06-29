@@ -17,7 +17,7 @@ process.source = cms.Source("PoolSource",
     )
 )
 
-process.TFileService = cms.Service("TFileService", fileName = cms.string("/tmp/oiorio/TestFileSkimQCDBig2.root")) 
+process.TFileService = cms.Service("TFileService", fileName = cms.string("./TestFileSkimQCDBig.root")) 
 process.source.fileNames=slist_v1
 #process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(68224) )
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(262570) )
