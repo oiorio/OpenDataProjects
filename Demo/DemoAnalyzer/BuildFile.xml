@@ -1,0 +1,16 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/ServiceRegistry"/> 
+<use name="DataFormats/BeamSpot"/> 
+<use name="DataFormats/GsfTrackReco"/> 
+<use name="DataFormats/VertexReco"/> 
+<use name="CommonTools/UtilAlgos"/> 
+<use name="root"/>
+<use name="HLTrigger/HLTcore"/>
+<use name="DataFormats/MuonReco"/>
+<use name="DataFormats/EgammaCandidates"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<flags EDM_PLUGIN="1"/>
+<export>
+   <lib name="1"/>
+</export>
