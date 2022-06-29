@@ -23,23 +23,23 @@ process.source.fileNames=slist_v1
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(262570) )
 #process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(1024) )
 #process.source.fileNames=slist_v11
-#process.TFileService.fileName=cms.string("/tmp/oiorio/TestFileSkimQCD_11.root")
+#process.TFileService.fileName=cms.string("./TestFileSkimQCD_11.root")
 
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(10000) )
 process.source.fileNames=slist
-process.TFileService = cms.Service("TFileService", fileName = cms.string("/tmp/oiorio/TestFileSkimZData.root")) 
+process.TFileService = cms.Service("TFileService", fileName = cms.string("./TestFileSkimZData.root")) 
 
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(550) )
 process.source.fileNames=slisttt
-process.TFileService.fileName=cms.string("/tmp/oiorio/TestFileSkimTTSmol.root")
+process.TFileService.fileName=cms.string("./TestFileSkimTTSmall.root")
 
 #process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(5000) )
 ##process.source.fileNames=slistttdl
-#process.TFileService.fileName=cms.string("/tmp/oiorio/TestFileSkimTTBig.root")
+#process.TFileService.fileName=cms.string("./TestFileSkimTTBig.root")
 
 #process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(5000) )
 #process.source.fileNames=slistttdl
-#process.TFileService.fileName=cms.string("/tmp/oiorio/TestFileSkimTTDL.root")
+#process.TFileService.fileName=cms.string("./TestFileSkimTTDL.root")
                                                                                                                      
 process.trees = cms.EDAnalyzer('AnalyzerTT',
 muons=cms.InputTag("muons"),
