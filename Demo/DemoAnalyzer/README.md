@@ -1,8 +1,13 @@
 Nell'attuale cartella ci sono: 
+
  A) Tre file cruciali:
+
  Demo/DemoAnalyzer/BuildFile.xml
+ 
  Demo/DemoAnalyzer/src/AnalyzeTT.cc
+ 
  Demo/DemoAnalyzer/analyzett_cfg.py
+ 
  B) numerosi file ancillari chiamati mclist*.py
 
 Cosa fare:
